@@ -1,4 +1,4 @@
-module github.com/lewislee/hltools
+module github.com/lewisleedev/hltools
 
 go 1.22.3
 
