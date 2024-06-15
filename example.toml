@@ -1,0 +1,20 @@
+expensesPrefix = "expenses:depreciation"
+assetPrefix = "assets:accum depreciation"
+payee = "Depreciation"
+
+[[depreciation]]
+initialValue = 2500
+scrapValue = 0
+period = 12
+startDate = "2024-01-01"
+category = "course"
+method = "sl" # can be sl, ddb or soy.
+
+[[depreciation]]
+initialValue = 20000
+scrapValue = 8000
+period = 48
+startDate = "2023-07-14"
+category = "vehicle"
+accountName = "car"
+method = "sl"
