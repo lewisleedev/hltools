@@ -13,7 +13,7 @@ func main() {
 		Usage: "Various useful cli tools to use with hledger",
 		Commands: []*cli.Command{
 			{
-				Name:    "depreciation",
+				Name:    "depreciate",
 				Aliases: []string{"depr"},
 				Usage:   "calculate depreciations and return postings for each period",
 				Flags: []cli.Flag{
